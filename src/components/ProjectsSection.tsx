@@ -9,6 +9,11 @@ const videos = [
     tag: "DaVinci Resolve",
     videoUrl: "https://youtube.com/shorts/VQfNI0tpL4I",
   },
+    {
+    title: "Edit - 2",
+    tag: "DaVinci Resolve",
+    videoUrl: "https://www.instagram.com/reel/DTQK2WBj0RX/",
+  },
 ];
 
 const ProjectsSection = () => {
