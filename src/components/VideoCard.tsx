@@ -11,9 +11,15 @@ interface VideoCardProps {
 const VideoCard = ({ title, tag, videoUrl, index }: VideoCardProps) => {
   // Convert YouTube shorts URL to embed format
   const getEmbedUrl = (url: string) => {
-    const videoId = url.match(/shorts\/([^?]+)/)?.[1] || 
-                    url.match(/(?:v=|\/embed\/|youtu\.be\/)([^?&]+)/)?.[1];
-    return videoId ? `https://www.youtube.com/embed/${videoId}` : url;
+    const videoId =
+      url.match(/shorts\/([^?]+)/)?.[1] ||
+      url.match(/(?:v=|\/embed\/|youtu\.be\/)([^?&]+)/)?.[1];
+    if (videoId) return `https://www.youtube.com/embed/${videoId}`;
+
+    const instaId = url.match(/instagram\.com\/reel\/([^/?#&]+)/)?.[1];
+    if (instaId) return `https://www.instagram.com/reel/${instaId}/embed/`;
+
+    return url;
   };
 
   return (
