@@ -12,7 +12,7 @@ const videos = [
     {
     title: "Edit - 2",
     tag: "DaVinci Resolve",
-    videoUrl: "https://www.instagram.com/reel/DTQK2WBj0RX/",
+    videoUrl: "https://youtube.com/shorts/R44Lc-akqaA?si=JGkzHobQR6V7kqo1",
   },
 ];
 
