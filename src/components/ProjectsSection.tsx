@@ -11,8 +11,18 @@ const videos = [
   },
     {
     title: "Edit - 2",
+    tag: "Canva",
+    videoUrl: "https://youtube.com/shorts/t2i-VSpw8po?si=VrvcT_31HO9ObQ_Y",
+  },
+  {
+    title: "Edit - 3",
     tag: "DaVinci Resolve",
-    videoUrl: "https://youtube.com/shorts/R44Lc-akqaA?si=JGkzHobQR6V7kqo1",
+    videoUrl: "https://youtube.com/shorts/W0ReSEndVR0?si=6uG7o28z4f1t_5Xp",
+  },
+  {
+    title: "Poster - 1",
+    tag: "Canva",
+    videoUrl: "https://youtube.com/shorts/zSw5lHWVZG8?si=0QsadJjrzYRcifbt",
   },
 ];
 
